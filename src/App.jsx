@@ -24,7 +24,7 @@ function removeButton(removeId){
 function Item ({remove, id}){
   return(
     <div>
-      <button onClick={remove}>Fix me. id: {id}</button>
+      <button onClick={()=>remove(id)}>Fix me. id: {id}</button>
     </div>
   )
 }
